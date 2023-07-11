@@ -1,11 +1,12 @@
 name: HEllo
 
-on: [push]
+on: [push]  
 
 jobs:
-    runs-on: d1PullRequest
+  d1-test-cases-testrail:
+    runs-on: macOS
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - run: echo Hello Priyanka
