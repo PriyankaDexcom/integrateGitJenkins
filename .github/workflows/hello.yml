@@ -1,11 +1,11 @@
-name : HEllo
+name: HEllo
 
-on : [push]
+on: [push]
 
-jobs :
+jobs:
     runs-on: d1PullRequest
 
-    steps :
-      - name : Checkout
-        uses : actions/checkout@v2
-      - run : echo Hello Priyanka
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: echo Hello Priyanka
