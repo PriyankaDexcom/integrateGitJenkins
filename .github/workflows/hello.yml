@@ -1,0 +1,12 @@
+name : HEllo
+
+on : [commit]
+
+jobs :
+  say hello :
+    runs on : d1PullRequest
+
+    steps :
+      - name : Checkout
+        used : actions/checkout@v2
+      - run : echo Hello Priyanka
