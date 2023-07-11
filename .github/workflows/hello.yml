@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   d1-test-cases-testrail:
-    runs-on: macOS
+    runs-on: self-hosted
 
     steps:
       - name: Checkout
